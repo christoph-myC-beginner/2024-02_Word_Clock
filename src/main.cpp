@@ -234,17 +234,17 @@ void loop() {
     else {
       testHour = hour();
     }
-    if (testMinute > 59) {
-      testMinute = 0;
-      lastMinute = -1;
-      testHour = testHour + 1;
-    }
-    if (testHour > 12) {
-      testHour = 1;
-    }
+    //if (testMinute > 59) {
+    //  testMinute = 0;
+    ////  lastMinute = -1;
+    //  testHour = testHour + 1;
+    //}
+    //if (testHour > 12) {
+    //  testHour = 1;
+    //}
   }
   
-  if (testMinute - lastMinute > 0) {
+  if (testMinute != lastMinute) {
     lastMinute = testMinute;
     
     for (int i = (NUM_LEDS - 1); i>=0; i--) {
