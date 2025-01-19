@@ -25,7 +25,7 @@ DS3232RTC myRTC;
 //#define CLOCK_PIN 13
 // Define the array of leds
 CRGB leds[NUM_LEDS];
-#define BRIGHTNESS  30
+#define BRIGHTNESS  50
 
 #include "OneButton.h"
 // Setup a new OneButton on   

@@ -4,8 +4,8 @@
 //extern NUM_LEDS;
 extern CRGB leds[108];
 int rot = 72;
-int gruen = 202;
-int blau = 60;
+int gruen = 212;
+int blau = 123;
 
 //declaration vor LEDs
 //97  E S K I S T L F Ü N F  107   ==> ES IST FÜNF
